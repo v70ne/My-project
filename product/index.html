@@ -1,0 +1,757 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <title>Nike Online Shop</title>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js" integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J" crossorigin="anonymous"></script>
+    <!--Slick-->
+    <script src="slick/slick.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <!--Gallery-->
+    <link href="https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/css/lightgallery.css" rel="stylesheet">
+		<style>
+			.demo-gallery > ul {
+				margin-bottom: 0;
+			}
+			.demo-gallery > ul > li {
+				float: left;
+				margin-bottom: 15px;
+				margin-right: 20px;
+				width: 200px;
+			}
+			.demo-gallery > ul > li a {
+				border: 3px solid #FFF;
+				border-radius: 3px;
+				display: block;
+				overflow: hidden;
+				position: relative;
+				float: left;
+			}
+			.demo-gallery > ul > li a > img {
+				-webkit-transition: -webkit-transform 0.15s ease 0s;
+				-moz-transition: -moz-transform 0.15s ease 0s;
+				-o-transition: -o-transform 0.15s ease 0s;
+				transition: transform 0.15s ease 0s;
+				-webkit-transform: scale3d(1, 1, 1);
+				transform: scale3d(1, 1, 1);
+				height: 100%;
+				width: 100%;
+			}
+			.demo-gallery > ul > li a:hover > img {
+				-webkit-transform: scale3d(1.1, 1.1, 1.1);
+				transform: scale3d(1.1, 1.1, 1.1);
+			}
+			.demo-gallery > ul > li a:hover .demo-gallery-poster > img {
+				opacity: 1;
+			}
+			.demo-gallery > ul > li a .demo-gallery-poster {
+				background-color: rgba(0, 0, 0, 0.1);
+				bottom: 0;
+				left: 0;
+				position: absolute;
+				right: 0;
+				top: 0;
+				-webkit-transition: background-color 0.15s ease 0s;
+				-o-transition: background-color 0.15s ease 0s;
+				transition: background-color 0.15s ease 0s;
+			}
+			.demo-gallery > ul > li a .demo-gallery-poster > img {
+				left: 50%;
+				margin-left: -10px;
+				margin-top: -10px;
+				opacity: 0;
+				position: absolute;
+				top: 50%;
+				-webkit-transition: opacity 0.3s ease 0s;
+				-o-transition: opacity 0.3s ease 0s;
+				transition: opacity 0.3s ease 0s;
+			}
+			.demo-gallery > ul > li a:hover .demo-gallery-poster {
+				background-color: rgba(0, 0, 0, 0.5);
+			}
+			.demo-gallery .justified-gallery > a > img {
+				-webkit-transition: -webkit-transform 0.15s ease 0s;
+				-moz-transition: -moz-transform 0.15s ease 0s;
+				-o-transition: -o-transform 0.15s ease 0s;
+				transition: transform 0.15s ease 0s;
+				-webkit-transform: scale3d(1, 1, 1);
+				transform: scale3d(1, 1, 1);
+				height: 100%;
+				width: 100%;
+			}
+			.demo-gallery .justified-gallery > a:hover > img {
+				-webkit-transform: scale3d(1.1, 1.1, 1.1);
+				transform: scale3d(1.1, 1.1, 1.1);
+			}
+			.demo-gallery .justified-gallery > a:hover .demo-gallery-poster > img {
+				opacity: 1;
+			}
+			.demo-gallery .justified-gallery > a .demo-gallery-poster {
+				background-color: rgba(0, 0, 0, 0.1);
+				bottom: 0;
+				left: 0;
+				position: absolute;
+				right: 0;
+				top: 0;
+				-webkit-transition: background-color 0.15s ease 0s;
+				-o-transition: background-color 0.15s ease 0s;
+				transition: background-color 0.15s ease 0s;
+			}
+			.demo-gallery .justified-gallery > a .demo-gallery-poster > img {
+				left: 50%;
+				margin-left: -10px;
+				margin-top: -10px;
+				opacity: 0;
+				position: absolute;
+				top: 50%;
+				-webkit-transition: opacity 0.3s ease 0s;
+				-o-transition: opacity 0.3s ease 0s;
+				transition: opacity 0.3s ease 0s;
+			}
+			.demo-gallery .justified-gallery > a:hover .demo-gallery-poster {
+				background-color: rgba(0, 0, 0, 0.5);
+			}
+			.demo-gallery .video .demo-gallery-poster img {
+				height: 48px;
+				margin-left: -24px;
+				margin-top: -24px;
+				opacity: 0.8;
+				width: 48px;
+			}
+			.demo-gallery.dark > ul > li a {
+				border: 3px solid #04070a;
+			}
+			.home .demo-gallery {
+				padding-bottom: 80px;
+			}
+		</style>
+
+  </head>
+
+  <body>
+    
+    <!--Шапка Сайта-->
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <div class="row">
+              <div class="col-5 b-r">
+                <a href="">
+                  <i class="fas fa-sms"></i> Sms Default welcome!
+                </a>
+              </div>
+              <div class="col-4">
+                <a href="">
+                  <span class="block_podarki">
+                      <i class="fas fa-gift"></i>
+                      <sup class="count_gift">2</sup>
+                  </span> Gift Vouchers
+                </a>
+              </div>
+            </div>  
+          </div> 
+          <div class="col-6">
+            <div class="row t-r">
+              <div class="col-4">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light pt-0">
+                  <div class="collapse navbar-collapse top_left" id="navbarSupportedContent">
+                    <a class="nav-link dropdown-toggle pt-0" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <i class="fas fa-language"></i> Язык:
+                      <span class="get_arrow">РУС</span>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">ENG-English</a>
+                      <a class="dropdown-item" href="#">RUS-Russian</a>
+                      <a class="dropdown-item" href="#">KYR-Kyrgyz</a>
+                    </div>
+                  </div>
+                </nav>
+              </div>
+              <div class="col-4">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light pt-0">
+                  <div class="collapse navbar-collapse top_left" id="navbarSupportedContent">
+                    <a class="nav-link dropdown-toggle pt-0" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <i class="far fa-money-bill-alt"></i> Валюта:<span class="get_arrow"> РУБ</span>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">ENG-English</a>
+                      <a class="dropdown-item" href="#">RUS-Russian</a>
+                      <a class="dropdown-item" href="#">KYR-Kyrgyz</a>
+                    </div>
+                  </div>
+                </nav>
+              </div>
+              <div class="col-4">
+                <a href="#"><i class="fas fa-user"></i> Вход/Регистрация</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg_white pt-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-3 pt-4">
+              <div class="logo">
+                <a href="http://wp1.moydunovdastan.ndzjp.spectrum.myjino.ru/"><img src="img/Header/logotype.jpg" alt=""></a>
+              </div>
+            </div>
+            <div class="col-3 pt-4">
+              <div class="menu_desc">
+                <div class="desc_levaya">
+                    <i class="far fa-calendar-alt"></i>
+                </div>
+                <div class="desc_pravaya">
+                    <p class="f-b">ПН-СБ 8ч00-18ч00</p>
+                    <p><span class="text-secondary">Воскресенье:</span> <span class="text-danger">ЗАКРЫТО</span></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-3 pt-4">
+              <div class="menu_desc">
+                <div class="desc_levaya">
+                    <i class="fas fa-bookmark"></i>
+                </div>
+                <div class="desc_pravaya">
+                    <p class="f-b">Каждую Неделю Скидки!</p>
+                    <p><span class="text-secondary">Скидки</span> <span class="text-warning">до 50%.</span></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-3 pt-4">
+              <div class="menu_desc">
+                <div class="desc_levaya">
+                    <i class="fa fa-phone st-phone" aria-hidden="true"></i>
+                </div>
+                <div class="desc_pravaya">
+                    <p class="f-b">Есть вопросы?</p>
+                    <p><span class="text-secondary">Звоните:</span> <span class="text-info">1900 - 819898</span></p>
+                </div>
+            </div>    
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-grey">
+        <div class="container"> 
+          <div class="row">
+            <div class="col-10">
+              <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Главная
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Главная 1</a>
+                        <a class="dropdown-item" href="#">Главная 2</a>
+                        <a class="dropdown-item" href="#">Главная 3</a>
+                      </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Товары
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Товар 1</a>
+                        <a class="dropdown-item" href="#">Товар 2</a>
+                        <a class="dropdown-item" href="#">Товар 3</a>
+                      </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Блоги
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Блог 1</a>
+                        <a class="dropdown-item" href="#">Блог 2</a>
+                        <a class="dropdown-item" href="#">Блог 3</a>
+                      </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        О нас
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">О нас 1</a>
+                        <a class="dropdown-item" href="#">О нас 2</a>
+                        <a class="dropdown-item" href="#">О нас 3</a>
+                      </div>
+                    </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0 search_form">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" name="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+                  </form>
+                </div>
+              </nav>
+            </div>
+            <div class="col-2">
+              <nav class="navbar navbar-expand-lg navbar-light bg-light pl-0 pr-0 cart float-right">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle pr-0 pl-0 pt-0 pb-0" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <div class="cart_open">
+                          <div class="icon_card"><i class="fas fa-shopping-cart"></i></div>
+                          <div class="korzina_kolichestvo">
+                              <p>Корзина</p>
+                              <span class="kol_tovarov">04</span>
+                              <span class="summa_v_korzine">/524₽</span>
+                          </div>
+                        </div>  
+                      </a>
+											<div class="dropdown-menu data_cart" aria-labelledby="navbarDropdown2">
+												<div class="block_opisanie_korziny">
+								
+													<div class="listing_zakazov">
+														
+													</div>
+
+													<div class="itogvaya_cena">
+														<span>Итого:</span>
+														<span class="itog"> $ 650.6 </span>
+													</div>
+
+													<div class="checkout">
+                            <a href="https://wa.me/996709091753?text=Ваш заказ готов!%20">Оформить</a>
+
+													</div>
+
+												</div>
+											</div>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        
+        
+    </header>
+
+    <!--Содержимое-->
+    <div class="container">
+
+      <div class="breadcrumb mt-4 mb-4"><a href="http://wp1.moydunovdastan.ndzjp.spectrum.myjino.ru/"><b>Nike</a>/<a href="">Jordan's</a>/</b><a href="">Air Jordan 1 Mid SE</div></a>
+
+      <div class="row menu_hd">
+        <div class="col-6">
+					<ul class="block_photo" id="lightgallery">
+						<li data-src="img/Body/Product/product1.jpg">
+							<img src="img/Body/Product/product1.jpg" alt="" class="img-responsive">
+						</li>
+						<li data-src="img/Body/Product/product2.jpg">
+							<img src="img/Body/Product/product2.jpg" alt="" class="img-responsive">
+						</li>
+						<li data-src="img/Body/Product/product3.jpg">
+							<img src="img/Body/Product/product3.jpg" alt="" class="img-responsive">
+						</li>
+						<li data-src="img/Body/Product/product4.jpg">
+							<img src="img/Body/Product/product4.jpg" alt="" class="img-responsive">
+						</li>
+          </ul>
+        </div>
+        <!--desc-->
+        <div class="col-6 product_info">
+          <h3 class="title def_color_txt">Air Jordan 1 Mid SE</h3>
+          <p class="review"><img src="img/Body/Desc/stars.jpg" alt=""> 6 Review(s)</p>
+          <p class="price def_color_txt">
+            <span class="originalnaya_cena">
+							<span class="synbol">$</span>
+							<span class="cena_za_odin">46.00</span>
+						</span>
+          </p>
+          <p class="mini_desc">Одна из самых культовых моделей Jordan по-прежнему остается одной из самых универсальных. Кроссовки Air Jordan 1 Mid предстают в традиционном исполнении: верх из натуральной и синтетической кожи и бортик с мягкой подкладкой обеспечивают комфорт на весь день. Эта модель SE выделяется войлочным логотипом Swoosh.</p>
+          <!--color-->
+          <div class="product_color">
+            <p class="def_color_txt font-weight-bold mb-0">Цвет:</p>
+            <ul class="list_color">
+              <li><span class="beruza"><span>Берюзовый</span></span></li>
+              <li><span class="jeltyi"><span>Желтый</span></span></li>
+              <li><span class="sinii"><span>Синий</span></span> </li>
+              <li><span class="rozovyi"><span>Розовый</span></span></li>
+              <li><span class="zelenyi"><span>Зеленый</span></span></li>
+            </ul>
+          </div>
+
+          <!--Size-->
+          <div class="product_size">
+          <p class="font-weight-bold def_color_txt" style="font-size: 18px;">Размер:</p>
+            <ul class="list_size">
+              <li><span><span>XS</span></span></li>
+              <li><span><span>S</span></span></li>
+              <li><span><span>M</span></span></li>
+              <li><span><span>L</span></span></li>
+              <li><span><span>XL</span></span></li>
+            </ul>
+          </div>
+
+          <div class="row cl_both pt-4">
+            <div class="col-4">
+              <div class="count_product">
+                <button type="button" class="js-minus" data-type="minus" data-field="">-
+                </button>
+                <input type="text" name="number" value="1" class="js-number">
+                <button type="button" class="js-plus" data-type="plus" data-field="">+
+                </button>
+                </div>
+            </div>
+            <div class="col-6">
+              <div class=" product_btns">
+
+                <input type="hidden" name="nazvanie_tovara" value="Air Jordan 1 Mid SE" tabindex="0">
+                <input type="hidden" name="cena" value="10790" tabindex="0">
+                <input type="hidden" name="cvet" value="красный" tabindex="0">
+                <input type="hidden" name="razmer" value="36" tabindex="0">
+  
+                <a href="#" class="add_to_cart" tabindex="0">
+                  <span class="fa fa-shopping-bag"></span>
+                </a>
+                <a href="#" class="zoa-btn zoa-wishlist" tabindex="0">
+                  <span class="fa fa-balance-scale"></span>
+                </a>
+                <a href="#" class="zoa-btn zoa-addcart" tabindex="0">
+                  <span class="fa fa-heart "></span>
+                </a>
+  
+            </div>
+                </div>
+          </div>
+          <!--Other-->
+          <div class="other_info mt-5">
+            <ul>
+              <li class="mb-3"><b> Guide Delivery & Return</b></li>
+              <li><b>SKU:</b> <span class="color-grey">CW7591-100</span></li>
+              <li><b>Categories:</b> <span class="color-grey">Jackets, Jewellery, Masonry, Accessories, Denim</span> </li>
+              <li><b>Tags:</b> <span class="color-grey">jewellery, jackets, masonry, shoes, short</span> </li>
+            </ul>
+          </div>
+        </div>
+
+
+      </div>
+
+      <div class="tabs mt-5">
+        <ul class="head_tabs">
+          <li data-open-tabs="tab1" class="active">Description</li>
+          <li data-open-tabs="tab2">Additional information</li>
+          <li data-open-tabs="tab3">Reviews(s)</li>
+        </ul>
+        <div class="data_tabs cl_both">
+          <!--1-->
+          <div id="tab1" class="active">
+            <div class="row">
+              <div class="col-8">
+                <p>
+                  This lovely green striped dress with ruffles over the shoulders is by French designer Tartine et Chocolat.
+                  Made in soft, fine cotton, it has beautifully embroidered dragonflies and sequinned flowers, and there are
+                  mother-of-pearl logo button fasteners on the back.
+                </p>
+
+                <p>
+                  Marco Campomaggi thinks, dreams, and designs collections of handbags, which combine the ancient
+                  art of treating leather with creativity, precision, and painstaking care in craftsmanship. Unique,
+                  one-of-a-kind, handmade bags, which do not get old after one season, but acquire value as time goes
+                  by. Because time doesn’t take away; it enhances.
+                </p>
+                <ul class="active_dots pl-3">
+                  <li>100% soft, fine cotton</li>
+                  <li>Machine wash (30*C)</li>
+                  <li>Button fastenings</li>
+                </ul>
+              </div>
+              <div class="col-4">
+                <img src="img/Body/Description/1.jpg" alt="">
+              </div>
+            </div>
+          </div>
+          <!--2-->
+          <div id="tab2">
+              <p class="color-grey">Duis id odio quis purus lacinia viverra non eget sapien. Aenean sed tortor sapien. Aenean ut iaculis justo, in hendrerit sem. Ut ac tincidunt velit, ac ultrices est. <b>Nullam eu massa auctor</b>, aecenas in ligula neque. Etiam nec ligula finibus, scelerisque tellus sed, rutrum mauris. Donec iaculis mattis interdum. Praesent et mauris non orci lacinia dignissim. Pellentesque vel sapien ut ante interdum aliquam.</p> 
+              <p class="fs_i"><span>"Nullam eu massa auctor, euismod arcu eget, suscipit nisl. Maecenas in ligula neque. Etiam nec ligula finibus, scelerisque tellus sed, rutrum mauris. Donec iaculis mattis interdum. Praesent et mauris non orci lacinia dignissim. Pellentesque vel sapien ut ante interdum aliquam.</span></p>
+            <div class="row">
+              <div class="col-4"><img src="img/Body/Additional information/мужское-футбольное-джерси-из-домашней-формы-фк-сен-пари-жермен-2020-21-vapor-match-HVJ5Mq.jpg" alt=""></div>
+              <div class="col-6">
+                <p class="color-grey fs_i">Duis id odio quis purus lacinia viverra non eget sapien. Aenean sed tortor sapien. Aenean ut iaculis justo, in hendrerit sem. Ut ac tincidunt velit, ac ultrices est. <b>Nullam eu massa auctor</b>, aecenas in ligula neque. Etiam nec ligula finibus, scelerisque tellus sed, rutrum mauris. Donec iaculis mattis interdum. Praesent et mauris non orci lacinia dignissim. Pellentesque vel sapien ut ante interdum aliquam.</p>
+                <p class="color-grey fs_i">Duis id odio quis purus lacinia viverra non eget sapien. Aenean sed tortor sapien. Aenean ut iaculis justo, in hendrerit sem. Ut ac tincidunt velit, ac ultrices est. <b>Nullam eu massa auctor</b>, aecenas in ligula neque. Etiam nec ligula finibus, scelerisque tellus sed, rutrum mauris. Donec iaculis mattis interdum. Praesent et mauris non orci lacinia dignissim. Pellentesque vel sapien ut ante interdum aliquam.</p>
+              </div>
+            </div>
+              <p class="color-grey fs_i">Duis id odio quis purus lacinia viverra non eget sapien. Aenean sed tortor sapien. Aenean ut iaculis justo, in hendrerit sem. Ut ac tincidunt velit, ac ultrices est. <b>Nullam eu massa auctor</b>, aecenas in ligula neque. Etiam nec ligula finibus, scelerisque tellus sed, rutrum mauris. Donec iaculis mattis interdum. Praesent et mauris non orci lacinia dignissim. Pellentesque vel sapien ut ante interdum aliquam.</p>
+          </div>
+
+          <div id="tab3">
+            <p><b>Поделись своим мнением. Оставь первый отзыв о "Air Jordan 1 Mid SE"</b></p>
+            <p class="color-grey">Электронный адрес не будет опубликован. Обязательные поля помечены*</p>
+            <p class="color-grey">Ваш Рейтинг:<span><img src="img/Body/Desc/stars.jpg" alt=""></span></p>
+            <p class="color-grey">Ваш отзыв:</p>
+
+            <div class="comment">
+              <form action="" method="POST">              
+                <textarea name="desc_comment" id="" cols="80" rows="10">Введите текст</textarea>
+                <p>
+                  <input type="text" name="name" placeholder="Введите ваше Имя" required>
+                  <input type="email" name="email" placeholder="Введите вашу почту" required>
+                </p>
+                <p><input type="submit"></p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-6">
+          <!--1-->
+          <ul class="btn_prev"> 
+            <li><i class="fas fa-chevron-circle-left nxt_prev"></i></li>
+            <li>
+              <p class="f-b">La Femme For Flaunt Magazine</p>
+              <p class="color-grey fs_i">Jan 30, 2018</p>
+            </li>
+          </ul>
+        </div>
+        <!--2-->
+        <div class="col-6">
+          <div class="row text-right">
+            <div class="col-11">
+              <p class="f-b mb-0">How did gardener and the gang first...</p>
+              <p class="color-grey fs_i">Jan 30, 2018</p>
+            </div>
+            <div class="col-1"><i class="fas fa-chevron-circle-right nxt_prev"></i></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-5 related_block">
+      <div class="container">
+        <h3>Related Products</h3>
+        <div>
+          <div class="slider slider_product">
+            <!-- Слайдер 1 -->
+            <div class="product_cont">
+              <a href="/123">
+                  <div class="block_img">
+                    <img src="../img/products/product1.jpg" alt="Kids wear - фотография номер 1" height="210">                    
+                  </div>              
+                  <span class="lbl_title blue">New</span>             
+                  <div class="product_desc">
+                    <p class="ttl mb-0">
+                      Толстовка с принтом животных
+                    </p>
+                    <p class="price">
+                      <span class="originalnaya_cena"><span class="synbol">₽</span><span class="cena_za_odin">46.00</span></span>
+                      <span class="staraya_cena">₽42.00</span>
+                    </p>
+                  </div>   
+              </a>
+            </div>
+
+            <div class="product_cont">
+              <a href="/123">
+                  <div class="block_img">
+                    <img src="../img/products/product1.jpg" alt="Kids wear - фотография номер 1" height="210">                    
+                  </div>              
+                  <span class="lbl_title blue">New</span>             
+                  <div class="product_desc">
+                    <p class="ttl mb-0">
+                      Толстовка с принтом животных
+                    </p>
+                    <p class="price">
+                      <span class="originalnaya_cena"><span class="synbol">₽</span><span class="cena_za_odin">46.00</span></span>
+                      <span class="staraya_cena">₽42.00</span>
+                    </p>
+                  </div>   
+              </a>
+            </div>
+
+            <div class="product_cont">
+              <a href="/123">
+                  <div class="block_img">
+                    <img src="../img/products/product1.jpg" alt="Kids wear - фотография номер 1" height="210">                    
+                  </div>              
+                  <span class="lbl_title blue">New</span>             
+                  <div class="product_desc">
+                    <p class="ttl mb-0">
+                      Толстовка с принтом животных
+                    </p>
+                    <p class="price">
+                      <span class="originalnaya_cena"><span class="synbol">₽</span><span class="cena_za_odin">46.00</span></span>
+                      <span class="staraya_cena">₽42.00</span>
+                    </p>
+                  </div>   
+              </a>
+            </div>
+
+            <div class="product_cont">
+              <a href="/123">
+                  <div class="block_img">
+                    <img src="../img/products/product1.jpg" alt="Kids wear - фотография номер 1" height="210">                    
+                  </div>              
+                  <span class="lbl_title blue">New</span>             
+                  <div class="product_desc">
+                    <p class="ttl mb-0">
+                      Толстовка с принтом животных
+                    </p>
+
+                    <p class="price">
+                      <span class="originalnaya_cena"><span class="synbol">₽</span><span class="cena_za_odin">46.00</span></span>
+                      <span class="staraya_cena">₽42.00</span>
+                    </p>
+                  </div>   
+              </a>
+            </div>
+
+            <div class="product_cont">
+              <a href="/123">
+                  <div class="block_img">
+                    <img src="../img/products/product1.jpg" alt="Kids wear - фотография номер 1" height="210">                    
+                  </div>              
+                  <span class="lbl_title blue">New</span>             
+                  <div class="product_desc">
+                    <p class="ttl mb-0">
+                      Толстовка с принтом животных
+                    </p>
+
+                    <p class="price">
+                      <span class="originalnaya_cena"><span class="synbol">₽</span><span class="cena_za_odin">46.00</span></span>
+                      <span class="staraya_cena">₽42.00</span>
+                    </p>
+                  </div>   
+              </a>
+            </div>
+
+            <div class="product_cont">
+              <a href="/123">
+                  <div class="block_img">
+                    <img src="../img/products/product1.jpg" alt="Kids wear - фотография номер 1" height="210">                    
+                  </div>              
+                  <span class="lbl_title blue">New</span>             
+                  <div class="product_desc">
+                    <p class="ttl mb-0">
+                      Толстовка с принтом животных
+                    </p>
+                    <p class="price">
+                      <span class="originalnaya_cena"><span class="synbol">₽</span><span class="cena_za_odin">46.00</span></span>
+                      <span class="staraya_cena">₽42.00</span>
+                    </p>
+                  </div>   
+              </a>
+            </div>
+          </div>
+        </div>    
+      </div>
+    </div>
+
+    <footer>
+      <div class="container mt-5">
+        <div class="head_footer pt-5">
+          <div> 
+            <p class="img_footer"><img src="img/Header/logotype.jpg"></p>
+            <p class="mini_desc_footer">
+              Nike is a premium eCommerce theme with advanced admin module.
+            </p>
+              
+            <ul class="list_footer">
+              <li>Telephone: +84 988 992 085</li>
+              <li>Email: lamhvdesigner@gmail.com</li>
+              <li>8:00 - 19:00, Monday - Saturday,</li>
+              <li>Sunday - closed</li>
+            </ul>
+              
+          </div>
+          <div> 
+            <h3> Information</h3>
+            <ul class="list_footer">
+              <li>About Us</li>
+              <li>Shipping & Returns</li>
+              <li>Privacy Notice</li>
+              <li>Conditions of Use</li>
+              <li>RSS</li>
+            </ul>
+                  </div>
+  
+          <div> 
+            <h3> Service </h3>
+            <ul class="list_footer">
+              <li>Online support</li>
+              <li>Help & FAQs</li>
+              <li>Call Center</li>
+              <li>Contact Us</li>
+              <li>Custom Link</li>
+            </ul>
+                  </div>
+          <div> 
+            <h3> Instagram </h3>
+            <ul class="instagram">
+              <li><a href="#"><img src="img/footer/instagram/img18.jpg" alt="img"></a></li>
+              <li><a href="#"><img src="img/footer/instagram/img19.jpg" alt="img"></a></li>
+              <li><a href="#"><img src="img/footer/instagram/img20.jpg" alt="img"></a></li>
+            </ul>
+            <ul class="instagram">
+              <li><a href="#"><img src="img/footer/instagram/img22.jpg" alt="img"></a></li>
+              <li><a href="#"><img src="img/footer/instagram/img25.jpg" alt="img"></a></li>
+              <li><a href="#"><img src="img/footer/instagram/img24.jpg" alt="img"></a></li>
+            </ul>
+          </div>
+        </div>
+          
+        <div class="bottom_footer">
+          <div>IT Academy © 2020. Разработчик <span class="red" style="color: red;">D</span>astan. Все права защищены.</div>
+          <div>
+            <ul class="list_card">
+              <li><img src="img/footer/card/icon1.png" alt=""></li>
+              <li><img src="img/footer/card/icon1.png" alt=""></li>
+              <li><img src="img/footer/card/icon1.png" alt=""></li>
+              <li><img src="img/footer/card/icon1.png" alt=""></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer> 
+
+	
+    <!--Gallery-->
+    <script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
+		<script src="https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/js/lightgallery.js"></script>
+		<script src="https://cdn.rawgit.com/sachinchoolur/lg-pager.js/master/dist/lg-pager.js"></script>
+		<script src="https://cdn.rawgit.com/sachinchoolur/lg-autoplay.js/master/dist/lg-autoplay.js"></script>
+		<script src="https://cdn.rawgit.com/sachinchoolur/lg-fullscreen.js/master/dist/lg-fullscreen.js"></script>
+		<script src="https://cdn.rawgit.com/sachinchoolur/lg-zoom.js/master/dist/lg-zoom.js"></script>
+		<script src="https://cdn.rawgit.com/sachinchoolur/lg-hash.js/master/dist/lg-hash.js"></script>
+		<script src="https://cdn.rawgit.com/sachinchoolur/lg-share.js/master/dist/lg-share.js"></script>
+    <script src="scripts/script.js"></script>  
+
+    <script>
+      lightGallery(document.getElementById('lightgallery'));
+
+      $('.slider_product').slick({
+			infinite: true,
+			slidesToShow: 5,
+			dots: true,
+			speed: 500,
+			slidesToScroll: 1
+      });
+    </script>
+    
+
+
+  </body>
+</html>

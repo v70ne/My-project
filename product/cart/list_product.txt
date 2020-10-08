@@ -1,0 +1,371 @@
+
+
+
+
+
+
+
+								
+													<div class="listing_zakazov"><span class="cart_ttl" style="display: none;">Простите, Ваша корзина пуста!</span><div class="dannye_tovarov"><a href=""><div class="kartinka_tovara"><img src="http://wp1.moydunovdastan.ndzjp.spectrum.myjino.ru../img/products/product1.jpg" alt=""></div><div class="opisanie_tovara"><p></p><p class="cart_count"><span>Amount:</span><span>  undefined</span></p><p class="cart_color_size"><span>  </span><span></span></p><div class="block_price"><span class="originalnaya_cena"><span class="symbol">$</span><span class="cena_za_odin">  46.00</span></span><sup> <span>*</span><span>NaN</span></sup></div></div></a><div class="udalit_zakaz"><i class="fa fa-trash" aria-hidden="true"></i></div></div></div>
+
+													<div class="itogvaya_cena">
+														<span>Подытог:</span>
+														<span class="itog">0</span>
+													</div>
+
+													<div class="checkout">
+                            <a href="https://wa.me/996709091753?text=Привет!%20Как%20дела">Оформить</a>
+
+													</div>
+
+												
+								
+													<div class="listing_zakazov"><span class="cart_ttl" style="display: none;">Простите, Ваша корзина пуста!</span><div class="dannye_tovarov"><a href=""><div class="kartinka_tovara"><img src="http://wp1.moydunovdastan.ndzjp.spectrum.myjino.ruimg/Body/Product/product1.jpg" alt=""></div><div class="opisanie_tovara"><p>Air Jordan 1 Mid SE</p><p class="cart_count"><span>Amount:</span><span>  1</span></p><p class="cart_color_size"><span>Синий  </span><span>M</span></p><div class="block_price"><span class="originalnaya_cena"><span class="symbol">$</span><span class="cena_za_odin">  46.00</span></span><sup> <span>*</span><span>46</span></sup></div></div></a><div class="udalit_zakaz"><i class="fa fa-trash" aria-hidden="true"></i></div></div></div>
+
+													<div class="itogvaya_cena">
+														<span>Подытог:</span>
+														<span class="itog">0</span>
+													</div>
+
+													<div class="checkout">
+                            <a href="https://wa.me/996709091753?text=Привет!%20Как%20дела">Оформить</a>
+
+													</div>
+
+												
+								
+													<div class="listing_zakazov"><span class="cart_ttl" style="display: none;">Простите, Ваша корзина пуста!</span><div class="dannye_tovarov"><a href=""><div class="kartinka_tovara"><img src="http://wp1.moydunovdastan.ndzjp.spectrum.myjino.ru/productimg/Body/Product/product1.jpg" alt=""></div><div class="opisanie_tovara"><p>Air Jordan 1 Mid SE</p><p class="cart_count"><span>Amount:</span><span>  2</span></p><p class="cart_color_size"><span>Желтый  </span><span>S</span></p><div class="block_price"><span class="originalnaya_cena"><span class="symbol">$</span><span class="cena_za_odin">  46.00</span></span><sup> <span>*</span><span>92</span></sup></div></div></a><div class="udalit_zakaz"><i class="fa fa-trash" aria-hidden="true"></i></div></div></div>
+
+													<div class="itogvaya_cena">
+														<span>Подытог:</span>
+														<span class="itog">0</span>
+													</div>
+
+													<div class="checkout">
+                            <a href="https://wa.me/996709091753?text=Привет!%20Как%20дела">Оформить</a>
+
+													</div>
+
+												
+								
+													<div class="listing_zakazov"><span class="cart_ttl" style="display: none;">Простите, Ваша корзина пуста!</span><div class="dannye_tovarov"><a href=""><div class="kartinka_tovara"><img src="http://wp1.moydunovdastan.ndzjp.spectrum.myjino.ru/product/img/Body/Product/product1.jpg" alt=""></div><div class="opisanie_tovara"><p>Air Jordan 1 Mid SE</p><p class="cart_count"><span>Amount:</span><span>  1</span></p><p class="cart_color_size"><span>Синий  </span><span>M</span></p><div class="block_price"><span class="originalnaya_cena"><span class="symbol">$</span><span class="cena_za_odin">  46.00</span></span><sup> <span>*</span><span>46</span></sup></div></div></a><div class="udalit_zakaz"><i class="fa fa-trash" aria-hidden="true"></i></div></div></div>
+
+													<div class="itogvaya_cena">
+														<span>Подытог:</span>
+														<span class="itog">0</span>
+													</div>
+
+													<div class="checkout">
+                            <a href="https://wa.me/996709091753?text=Привет!%20Как%20дела">Оформить</a>
+
+													</div>
+
+												
+
+                                <div class="listing_zakazov"><div class="dannye_tovarov"><a href=""><div class="kartinka_tovara"><img src="http://wp1.moydunovdastan.ndzjp.spectrum.myjino.ru/img/products/product3.jpg" alt=""></div><div class="opisanie_tovara"><p>Водолазка</p><p class="cart_count"><span>Количество:</span><span>  1</span></p><p class="cart_color_size"><span>  </span><span>37</span></p><div class="block_price"><span class="originalnaya_cena"><span class="symbol">$</span><span class="cena_za_odin">  200</span></span><sup> <span>*</span><span>200</span></sup></div></div></a><div class="udalit_zakaz"><i class="fa fa-trash" aria-hidden="true"></i></div></div></div>
+
+                                <div class="itogovaya_cena">
+                                    <span>Итого:</span>
+                                    <span class="itog">$ 400</span>
+                                </div>
+
+                                <div class="checkout">
+                                    <a href="https://wa.me/996703610226?text=Привет!%20Как%20дела">Оформить</a>
+                                </div>
+                            
+
+                                <div class="listing_zakazov"></div>
+
+                                <div class="itogovaya_cena">
+                                    <span>Итого:</span>
+                                    <span class="itog">$ 200</span>
+                                </div>
+
+                                <div class="checkout">
+                                    <a href="https://wa.me/996703610226?text=Привет!%20Как%20дела">Оформить</a>
+                                </div>
+                            
+
+                                <div class="listing_zakazov"><span class="cart_ttl">Ваша корзина пуста</span></div>
+
+                                <div class="itogovaya_cena">
+                                    <span>Итого:</span>
+                                    <span class="itog">0</span>
+                                </div>
+
+                                <div class="checkout">
+                                    <a href="https://wa.me/996703610226?text=Привет!%20Как%20дела">Оформить</a>
+                                </div>
+                            
+
+                                <div class="listing_zakazov"></div>
+
+                                <div class="itogovaya_cena">
+                                    <span>Итого:</span>
+                                    <span class="itog">$ 200</span>
+                                </div>
+
+                                <div class="checkout">
+                                    <a href="https://wa.me/996703610226?text=Привет!%20Как%20дела">Оформить</a>
+                                </div>
+                            
+								
+													<div class="listing_zakazov"><span class="cart_ttl" style="display: none;">Простите, Ваша корзина пуста!</span><div class="dannye_tovarov"><a href=""><div class="kartinka_tovara"><img src="http://wp1.moydunovdastan.ndzjp.spectrum.myjino.ru/product/img/Body/Product/product1.jpg" alt=""></div><div class="opisanie_tovara"><p>Air Jordan 1 Mid SE</p><p class="cart_count"><span>Amount:</span><span>  2</span></p><p class="cart_color_size"><span>Желтый  </span><span>M</span></p><div class="block_price"><span class="originalnaya_cena"><span class="symbol">$</span><span class="cena_za_odin">  46.00</span></span><sup> <span>*</span><span>92</span></sup></div></div></a><div class="udalit_zakaz"><i class="fa fa-trash" aria-hidden="true"></i></div></div></div>
+
+													<div class="itogvaya_cena">
+														<span>Подытог:</span>
+														<span class="itog">0</span>
+													</div>
+
+													<div class="checkout">
+                            <a href="https://wa.me/996709091753?text=Привет!%20Как%20дела">Оформить</a>
+
+													</div>
+
+												
+								
+													<div class="listing_zakazov"><span class="cart_ttl" style="display: none;">Простите, Ваша корзина пуста!</span><div class="dannye_tovarov"><a href=""><div class="kartinka_tovara"><img src="http://wp1.moydunovdastan.ndzjp.spectrum.myjino.ru/product/img/Body/Product/product1.jpg" alt=""></div><div class="opisanie_tovara"><p>Air Jordan 1 Mid SE</p><p class="cart_count"><span>Amount:</span><span>  2</span></p><p class="cart_color_size"><span>Синий  </span><span>M</span></p><div class="block_price"><span class="originalnaya_cena"><span class="symbol">$</span><span class="cena_za_odin">  46.00</span></span><sup> <span>*</span><span>92</span></sup></div></div></a><div class="udalit_zakaz"><i class="fa fa-trash" aria-hidden="true"></i></div></div></div>
+
+													<div class="itogvaya_cena">
+														<span>Подытог:</span>
+														<span class="itog">0</span>
+													</div>
+
+													<div class="checkout">
+                            <a href="https://wa.me/996709091753?text=Привет!%20Как%20дела">Оформить</a>
+
+													</div>
+
+												
+								
+													<div class="listing_zakazov"><span class="cart_ttl" style="display: none;">Простите, Ваша корзина пуста!</span><div class="dannye_tovarov"><a href=""><div class="kartinka_tovara"><img src="http://wp1.moydunovdastan.ndzjp.spectrum.myjino.ru/product/img/Body/Product/product1.jpg" alt=""></div><div class="opisanie_tovara"><p>Air Jordan 1 Mid SE</p><p class="cart_count"><span>Amount:</span><span>  2</span></p><p class="cart_color_size"><span>Синий  </span><span>M</span></p><div class="block_price"><span class="originalnaya_cena"><span class="symbol">$</span><span class="cena_za_odin">  46.00</span></span><sup> <span>*</span><span>92</span></sup></div></div></a><div class="udalit_zakaz"><i class="fa fa-trash" aria-hidden="true"></i></div></div></div>
+
+													<div class="itogvaya_cena">
+														<span>Итого:</span>
+														<span class="itog">0</span>
+													</div>
+
+													<div class="checkout">
+                            <a href="https://wa.me/996709091753?text=Привет!%20Как%20дела">Оформить</a>
+
+													</div>
+
+												
+								
+													<div class="listing_zakazov"><span class="cart_ttl" style="display: none;">Простите, Ваша корзина пуста!</span><div class="dannye_tovarov"><a href=""><div class="kartinka_tovara"><img src="http://wp1.moydunovdastan.ndzjp.spectrum.myjino.ru/product/img/Body/Product/product1.jpg" alt=""></div><div class="opisanie_tovara"><p>Air Jordan 1 Mid SE</p><p class="cart_count"><span>Количество:</span><span>  1</span></p><p class="cart_color_size"><span>Синий  </span><span>M</span></p><div class="block_price"><span class="originalnaya_cena"><span class="symbol">$</span><span class="cena_za_odin">  46.00</span></span><sup> <span>*</span><span>46</span></sup></div></div></a><div class="udalit_zakaz"><i class="fa fa-trash" aria-hidden="true"></i></div></div></div>
+
+													<div class="itogvaya_cena">
+														<span>Итого:</span>
+														<span class="itog">0</span>
+													</div>
+
+													<div class="checkout">
+                            <a href="https://wa.me/996709091753?text=Привет!%20Как%20дела">Оформить</a>
+
+													</div>
+
+												
+								
+													<div class="listing_zakazov"></div>
+
+													<div class="itogvaya_cena">
+														<span>Итого:</span>
+														<span class="itog"> ₽46</span>
+													</div>
+
+													<div class="checkout">
+                            <a href="https://wa.me/996709091753?text=Привет!%20Как%20дела">Оформить</a>
+
+													</div>
+
+												
+
+                                <div class="listing_zakazov"></div>
+
+                                <div class="itogovaya_cena">
+                                    <span>Итого:</span>
+                                    <span class="itog">$ 200</span>
+                                </div>
+
+                                <div class="checkout">
+                                    <a href="https://wa.me/996703610226?text=Привет!%20Как%20дела">Оформить</a>
+                                </div>
+                            
+								
+													<div class="listing_zakazov"><span class="cart_ttl" style="display: none;">Простите, Ваша корзина пуста!</span><div class="dannye_tovarov"><a href=""><div class="kartinka_tovara"><img src="http://wp1.moydunovdastan.ndzjp.spectrum.myjino.ru/product/img/Body/Product/product1.jpg" alt=""></div><div class="opisanie_tovara"><p>Air Jordan 1 Mid SE</p><p class="cart_count"><span>Количество:</span><span>  1</span></p><p class="cart_color_size"><span>Розовый  </span><span>L</span></p><div class="block_price"><span class="originalnaya_cena"><span class="symbol">$</span><span class="cena_za_odin">  46.00</span></span><sup> <span>*</span><span>46</span></sup></div></div></a><div class="udalit_zakaz"><i class="fa fa-trash" aria-hidden="true"></i></div></div></div>
+
+													<div class="itogvaya_cena">
+														<span>Итого:</span>
+														<span class="itog">0</span>
+													</div>
+
+													<div class="checkout">
+                            <a href="https://wa.me/996709091753?text=Ваш заказ готов!%20">Оформить</a>
+
+													</div>
+
+												
+								
+													<div class="listing_zakazov"></div>
+
+													<div class="itogvaya_cena">
+														<span>Итого:</span>
+														<span class="itog"> ₽46</span>
+													</div>
+
+													<div class="checkout">
+                            <a href="https://wa.me/996709091753?text=Ваш заказ готов!%20">Оформить</a>
+
+													</div>
+
+												
+								
+													<div class="listing_zakazov"><span class="cart_ttl" style="display: none;">Простите, Ваша корзина пуста!</span><div class="dannye_tovarov"><a href=""><div class="kartinka_tovara"><img src="http://wp1.moydunovdastan.ndzjp.spectrum.myjino.ru/product/img/Body/Product/product1.jpg" alt=""></div><div class="opisanie_tovara"><p>Air Jordan 1 Mid SE</p><p class="cart_count"><span>Количество:</span><span>  2</span></p><p class="cart_color_size"><span>Розовый  </span><span>M</span></p><div class="block_price"><span class="originalnaya_cena"><span class="symbol">$</span><span class="cena_za_odin">  46.00</span></span><sup> <span>*</span><span>92</span></sup></div></div></a><div class="udalit_zakaz"><i class="fa fa-trash" aria-hidden="true"></i></div></div></div>
+
+													<div class="itogvaya_cena">
+														<span>Итого:</span>
+														<span class="itog">0</span>
+													</div>
+
+													<div class="checkout">
+                            <a href="https://wa.me/996709091753?text=Ваш заказ готов!%20">Оформить</a>
+
+													</div>
+
+												
+								
+													<div class="listing_zakazov"><span class="cart_ttl" style="display: none;">Простите, Ваша корзина пуста!</span><div class="dannye_tovarov"><a href=""><div class="kartinka_tovara"><img src="http://wp1.moydunovdastan.ndzjp.spectrum.myjino.ru/product/img/Body/Product/product1.jpg" alt=""></div><div class="opisanie_tovara"><p>Air Jordan 1 Mid SE</p><p class="cart_count"><span>Количество:</span><span>  1</span></p><p class="cart_color_size"><span>Розовый  </span><span>M</span></p><div class="block_price"><span class="originalnaya_cena"><span class="symbol">$</span><span class="cena_za_odin">  46.00</span></span><sup> <span>*</span><span>46</span></sup></div></div></a><div class="udalit_zakaz"><i class="fa fa-trash" aria-hidden="true"></i></div></div></div>
+
+													<div class="itogvaya_cena">
+														<span>Итого:</span>
+														<span class="itog">0</span>
+													</div>
+
+													<div class="checkout">
+                            <a href="https://wa.me/996709091753?text=Ваш заказ готов!%20">Оформить</a>
+
+													</div>
+
+												
+								
+													<div class="listing_zakazov"><div class="dannye_tovarov"><a href=""><div class="kartinka_tovara"><img src="http://wp1.moydunovdastan.ndzjp.spectrum.myjino.ru/product/img/Body/Product/product1.jpg" alt=""></div><div class="opisanie_tovara"><p>Air Jordan 1 Mid SE</p><p class="cart_count"><span>Количество:</span><span>  1</span></p><p class="cart_color_size"><span>Розовый  </span><span>M</span></p><div class="block_price"><span class="originalnaya_cena"><span class="symbol">$</span><span class="cena_za_odin">  46.00</span></span><sup> <span>*</span><span>46</span></sup></div></div></a><div class="udalit_zakaz"><i class="fa fa-trash" aria-hidden="true"></i></div></div><div class="dannye_tovarov"><a href=""><div class="kartinka_tovara"><img src="http://wp1.moydunovdastan.ndzjp.spectrum.myjino.ru/product/img/Body/Product/product1.jpg" alt=""></div><div class="opisanie_tovara"><p>Air Jordan 1 Mid SE</p><p class="cart_count"><span>Количество:</span><span>  4</span></p><p class="cart_color_size"><span>Розовый  </span><span>M</span></p><div class="block_price"><span class="originalnaya_cena"><span class="symbol">$</span><span class="cena_za_odin">  46.00</span></span><sup> <span>*</span><span>184</span></sup></div></div></a><div class="udalit_zakaz"><i class="fa fa-trash" aria-hidden="true"></i></div></div></div>
+
+													<div class="itogvaya_cena">
+														<span>Итого:</span>
+														<span class="itog"> ₽46</span>
+													</div>
+
+													<div class="checkout">
+                            <a href="https://wa.me/996709091753?text=Ваш заказ готов!%20">Оформить</a>
+
+													</div>
+
+												
+								
+													<div class="listing_zakazov"><div class="dannye_tovarov"><a href=""><div class="kartinka_tovara"><img src="http://wp1.moydunovdastan.ndzjp.spectrum.myjino.ru/product/img/Body/Product/product1.jpg" alt=""></div><div class="opisanie_tovara"><p>Air Jordan 1 Mid SE</p><p class="cart_count"><span>Количество:</span><span>  1</span></p><p class="cart_color_size"><span>Розовый  </span><span>M</span></p><div class="block_price"><span class="originalnaya_cena"><span class="symbol">$</span><span class="cena_za_odin">  46.00</span></span><sup> <span>*</span><span>46</span></sup></div></div></a><div class="udalit_zakaz"><i class="fa fa-trash" aria-hidden="true"></i></div></div></div>
+
+													<div class="itogvaya_cena">
+														<span>Итого:</span>
+														<span class="itog"> ₽230</span>
+													</div>
+
+													<div class="checkout">
+                            <a href="https://wa.me/996709091753?text=Ваш заказ готов!%20">Оформить</a>
+
+													</div>
+
+												
+								
+													<div class="listing_zakazov"></div>
+
+													<div class="itogvaya_cena">
+														<span>Итого:</span>
+														<span class="itog"> ₽46</span>
+													</div>
+
+													<div class="checkout">
+                            <a href="https://wa.me/996709091753?text=Ваш заказ готов!%20">Оформить</a>
+
+													</div>
+
+												
+								
+													<div class="listing_zakazov"><span class="cart_ttl">Простите, Ваша корзина пуста!</span></div>
+
+													<div class="itogvaya_cena">
+														<span>Итого:</span>
+														<span class="itog">0</span>
+													</div>
+
+													<div class="checkout">
+                            <a href="https://wa.me/996709091753?text=Ваш заказ готов!%20">Оформить</a>
+
+													</div>
+
+												
+								
+													<div class="listing_zakazov"><span class="cart_ttl" style="display: none;">Простите, Ваша корзина пуста!</span><div class="dannye_tovarov"><a href=""><div class="kartinka_tovara"><img src="http://wp1.moydunovdastan.ndzjp.spectrum.myjino.ru/product/img/Body/Product/product1.jpg" alt=""></div><div class="opisanie_tovara"><p>Air Jordan 1 Mid SE</p><p class="cart_count"><span>Количество:</span><span>  1</span></p><p class="cart_color_size"><span>Синий  </span><span>M</span></p><div class="block_price"><span class="originalnaya_cena"><span class="symbol">$</span><span class="cena_za_odin">  46.00</span></span><sup> <span>*</span><span>46</span></sup></div></div></a><div class="udalit_zakaz"><i class="fa fa-trash" aria-hidden="true"></i></div></div></div>
+
+													<div class="itogvaya_cena">
+														<span>Итого:</span>
+														<span class="itog">0</span>
+													</div>
+
+													<div class="checkout">
+                            <a href="https://wa.me/996709091753?text=Ваш заказ готов!%20">Оформить</a>
+
+													</div>
+
+												
+
+                                <div class="listing_zakazov"></div>
+
+                                <div class="itogovaya_cena">
+                                    <span>Итого:</span>
+                                    <span class="itog">$ 200</span>
+                                </div>
+
+                                <div class="checkout">
+                                    <a href="https://wa.me/996703610226?text=Привет!%20Как%20дела">Оформить</a>
+                                </div>
+                            
+								
+													<div class="listing_zakazov"></div>
+
+													<div class="itogvaya_cena">
+														<span>Итого:</span>
+														<span class="itog"> ₽92</span>
+													</div>
+
+													<div class="checkout">
+                            <a href="https://wa.me/996709091753?text=Ваш заказ готов!%20">Оформить</a>
+
+													</div>
+
+												
+
+                                <div class="listing_zakazov"></div>
+
+                                <div class="itogovaya_cena">
+                                    <span>Итого:</span>
+                                    <span class="itog">$ 200</span>
+                                </div>
+
+                                <div class="checkout">
+                                    <a href="https://wa.me/996703610226?text=Привет!%20Как%20дела">Оформить</a>
+                                </div>
+                            
+								
+													<div class="listing_zakazov"><span class="cart_ttl" style="display: none;">Простите, Ваша корзина пуста!</span><div class="dannye_tovarov"><a href=""><div class="kartinka_tovara"><img src="http://wp1.moydunovdastan.ndzjp.spectrum.myjino.ru/product/img/Body/Product/product1.jpg" alt=""></div><div class="opisanie_tovara"><p>Air Jordan 1 Mid SE</p><p class="cart_count"><span>Количество:</span><span>  2</span></p><p class="cart_color_size"><span>Желтый  </span><span>M</span></p><div class="block_price"><span class="originalnaya_cena"><span class="symbol">$</span><span class="cena_za_odin">  46.00</span></span><sup> <span>*</span><span>92</span></sup></div></div></a><div class="udalit_zakaz"><i class="fa fa-trash" aria-hidden="true"></i></div></div></div>
+
+													<div class="itogvaya_cena">
+														<span>Итого:</span>
+														<span class="itog">0</span>
+													</div>
+
+													<div class="checkout">
+                            <a href="https://wa.me/996709091753?text=Ваш заказ готов!%20">Оформить</a>
+
+													</div>
+
+												
